@@ -1,0 +1,3 @@
+onblur="if (this.value == '') {this.value = 'email@abc.com';}"
+ onfocus="if (this.value == 'email@abc.com') {this.value = '';}"
+
