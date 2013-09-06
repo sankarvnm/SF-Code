@@ -1,0 +1,85 @@
+$('.avbText1').click(function(){
+
+       
+
+            $(this).toggleClass('avbTextAct1');
+
+           
+
+            if($(this).html()=='Available'){
+
+           
+
+                $(this).html('Assigned')
+
+           
+
+            }
+
+        })
+
+       
+
+        $('.avbText2').click(function(){
+
+       
+
+            $(this).toggleClass('avbTextAct2');
+
+           
+
+            if($(this).html()=='Available'){
+
+           
+
+                $(this).html('Assigned')
+
+           
+
+            }
+
+        })
+
+         $('.avbText3').click(function(){
+
+       
+
+            $(this).toggleClass('avbTextAct3');
+
+           
+
+            if($(this).html()=='Available'){
+
+           
+
+                $(this).html('Assigned')
+
+           
+
+            }
+
+        })
+
+       
+
+        
+
+         $('.avbText4').click(function(){
+
+       
+
+            $(this).toggleClass('avbTextAct4');
+
+           
+
+            if($(this).html()=='Available'){
+
+           
+
+                $(this).html('Assigned')
+
+           
+
+            }
+
+        })
