@@ -1,0 +1,9 @@
+Static Resource SSEPortalBranding you can tweak that by editing the following lines:
+
+$('#portalheaderbot').slides({
+preload: true,
+play: 5000,
+pause: 2500,
+hoverPause: true,
+generatePagination: false
+});
