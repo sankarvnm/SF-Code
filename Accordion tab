@@ -1,0 +1,52 @@
+<script>
+
+$(document).ready(function() {
+    $(".accordion .accord-header").click(function() {
+        if($(this).next("div").is(":visible")){
+            $(this).next("div").slideUp("slow");
+        } else {
+            $(".accordion .accord-content").slideUp("slow");
+            $(this).next("div").slideToggle("slow");
+        }
+    });
+    $(".accordion .accord-header:eq(1)").trigger('click');
+});
+
+</script>
+
+<style>
+.accord-content { display: none; }
+
+
+
+.accord-header{
+display:block;
+    background-color:#1b5c9e;
+    margin:2px;
+    padding:10px;
+    color:#fff;
+    font-size:14px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.accord-content{
+border-top: 0;
+    font-size: 12px;
+    -webkit-margin-start: 2px;
+    padding:10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+</style>
+
+
+<body>
+    <div class="accordion">
+    <div class="accord-header">Header 1</div>
+    <div class="accord-content">This is the content for the first header.</div>
+    <div class="accord-header">Header 2</div>
+    <div class="accord-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+    </div>
+    
+    </body>
