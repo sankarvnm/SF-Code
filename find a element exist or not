@@ -1,0 +1,17 @@
+<script>
+ 
+ $(document).ready(function(){
+ 
+ if ( $('.newBtnM').length > 0 ) { 
+ 
+  $('.dTable').hide();
+} else {
+
+}
+ 
+
+      
+
+    
+ });
+</script>
